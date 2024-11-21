@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "caniuse-lite": "^1.0.30001617",
     "codemirror": "^5.65.2",
+    "dotenv": "^16.4.5",
     "express": "^4.17.3",
     "react": "^17.0.2",
     "react-avatar": "^4.0.0",

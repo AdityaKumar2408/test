@@ -11,7 +11,7 @@ import "core-js-pure/stable/object/assign";
 const Editor = ({ socketRef, roomId, onCodeChange }) => {
     const editorRef = useRef(null);
     useEffect(() => {
-        async function init() {
+        async function init() { 
             editorRef.current = Codemirror.fromTextArea(
                 document.getElementById('realtimeEditor'),
                 {
