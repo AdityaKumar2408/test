@@ -77,10 +77,7 @@ const Home = () => {
                 </div>
             </div>
             <footer>
-                <h4>
-                    Built &nbsp; by &nbsp; Aditya Kumar and Utkarsh Pathak
-                    {/* <a href="https://github.com/codersgyan">Coder's Gyan</a> */}
-                </h4>
+                
             </footer>
         </div>
     );
