@@ -4,6 +4,8 @@ const http = require('http');
 const path = require('path');
 const { Server } = require('socket.io');
 const ACTIONS = require('./src/Actions');
+const dotenv = require('dotenv')
+dotenv.config();
 //import "core-js-pure/stable/object/assign";
 
 const server = http.createServer(app);
