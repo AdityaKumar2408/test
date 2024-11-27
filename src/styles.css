@@ -1,0 +1,39 @@
+/* src/styles.css or App.css */
+.formWrapper {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4aed88;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45d678;
+}
+
+a {
+    text-decoration: none;
+    color: #4aed88;
+}
+
+a:hover {
+    color: #45d678;
+}
